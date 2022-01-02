@@ -1,0 +1,96 @@
+.containr{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 100%;
+}
+.out{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-style: groove;
+  
+}
+.check{
+  margin: auto 1px;
+}
+
+.output{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.input{
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.rem{
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.nts{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 16px;
+}
+
+.ctn{
+    margin-top: 6px;
+}
+.cotan{
+    display: flex;
+    margin-right: 8px;
+}
+
+.popup-box {
+    position: relative;
+    right: 0%;
+    padding: 10px 20px;
+    box-shadow: 4px 4px rgb(173, 164, 164);
+    background: white;
+    width: 100%;
+    height: auto;
+    /* top: 0;
+    left: 0; */
+  }
+  
+  .todo {
+    align-items: center;
+    /* border-style: groove; */
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+  
+  
+   
+  .box {
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+    /* max-height: 70vh;
+    margin-top: calc(100vh - 85vh - 20px); */
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    /* border: 1px solid #999; */
+    overflow: auto;
+  }
+   
+  .close-icon {
+    /* content: 'x'; */
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .end{
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+    background-color: white;
+  }
